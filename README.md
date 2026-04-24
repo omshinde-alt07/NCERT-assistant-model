@@ -119,11 +119,11 @@ Edit `config.py` to change behaviour:
 
 To use a different model (e.g. llama3):
 ```bash
-ollama pull llama3
+ollama pull phi3
 ```
 Then update `config.py`:
 ```python
-MODEL_NAME = "llama3"
+MODEL_NAME = "phi3"
 ```
 
 ---
